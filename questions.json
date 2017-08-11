@@ -10,5 +10,12 @@
     "author": "Violet Beauregarde",
     "content": "Portland",
     "notes": "Apartment"
+  }],
+    "answers": [{
+    "author": "Andrea",
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "content": "Nice view of the volcano!"
   }]
 }

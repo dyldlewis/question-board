@@ -3,13 +3,17 @@
 <p>Feel free to ask as many questions as you like.</p>
 
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
     {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
   {{/each}}
 </ul>
 
-
 {{new-question saveQuestion="saveQuestion"}}
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.content}} by {{answer.author}}</li>
+  {{/each}}
+</ul>
 
-{{#link-to 'about'}}About{{/link-to}}
-{{#link-to 'contact'}}Click here to contact us.{{/link-to}}
+
+{{new-answer saveAnswer="saveAnswer"}}
