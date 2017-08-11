@@ -1,0 +1,22 @@
+.jumbotron {
+  background-color: white;
+  text-align: center;
+  border-bottom: solid lightblue 2px;
+}
+
+body {
+  background-image: url();
+  font-family: bookman;
+}
+
+.link {
+  margin-left: 45px;
+}
+
+.content {
+  font-style: italic;
+}
+
+.delete {
+  display: inline-grid;
+}
