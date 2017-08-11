@@ -1,0 +1,14 @@
+{ "questions": [{
+    "author": "Veruca Salt",
+    "content": "San Francisco",
+    "notes": "Estate"
+  }, {
+    "author": "Mike Teavee",
+    "content": "Seattle",
+    "notes": "Condo"
+  }, {
+    "author": "Violet Beauregarde",
+    "content": "Portland",
+    "notes": "Apartment"
+  }]
+}
